@@ -1,0 +1,10 @@
+Docker setup  and mongodb on mac
+1.	Got to https://hub.docker.com/ and create account
+2.	Download docker for desktop
+3.	Install docker. 
+4.	Run this command “docker pull mongo” to pull mongodb image from docker hub
+5.	Open docker from application
+6.	Run this image as docker container by using “docker run -d -p 27017-27019:27017-27019 --name mongodb mongo”
+7.	Use “docker ps” to know about containers
+8.	Run command “mongo”. // name of container
+9.	Start using 
